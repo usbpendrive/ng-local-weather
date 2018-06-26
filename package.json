@@ -1,6 +1,9 @@
 {
-  "name": "local-weather-app",
-  "version": "0.0.0",
+  "name": "ng-local-weather",
+  "version": "1.0.0",
+  "description": "Angular 6 Local Weather App",
+  "repository": "https://github.com/usbpendrive/ng-local-weather",
+  "author": "usbpendrive <ferry.fernando@gmail.com>",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
