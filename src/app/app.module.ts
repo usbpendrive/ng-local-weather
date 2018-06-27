@@ -13,10 +13,13 @@ import { MaterialModule } from './material.module'
 @NgModule({
   declarations: [AppComponent, CurrentWeatherComponent],
   imports: [
-    BrowserModule, HttpClientModule,
-    BrowserAnimationsModule, MaterialModule,
-    FlexLayoutModule],
+    BrowserModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    FlexLayoutModule,
+  ],
   providers: [WeatherService],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
