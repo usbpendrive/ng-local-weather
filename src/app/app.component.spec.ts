@@ -1,6 +1,6 @@
 import { TestBed, async } from '@angular/core/testing'
 import { AppComponent } from './app.component'
-import { MaterialModule } from './material.module';
+import { MaterialModule } from './material.module'
 import { CurrentWeatherComponent } from './current-weather/current-weather.component'
 import { WeatherService } from './weather/weather.service'
 import { WeatherServiceFake } from './weather/weather.service.fake'
